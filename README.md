@@ -7,6 +7,8 @@ Matplotlib 3.1.1
 NumPy 1.18.1
 Superconductivty Data Data Set - open dataset, containing superconductors chemistry formulas. https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
 --------------------------------------------
+Link to Google Drive the compressed archive https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
+-------------------------------------------
 How can you run and train this network:
 1. Start prediction for your formulas
 
@@ -23,7 +25,11 @@ How can you run and train this network:
 2.1 (optional)Start file "parserBIG.ipynb". 
 This file makes dataset processing for training process.
 Processed data already is in folder "processed_data" in files "train_dataset.txt" and "test_dataset.txt"
-This repository already has default dataset in this folder. If you want crate your own dataset, remove default dataset.
+This repository has not default dataset in this folder. 
+You can download test dataset by link https://drive.google.com/open?id=1h-le5YqJKfOXUPhDARZxCq_D8qGT0BzJ
+You can download train dataset by link https://drive.google.com/open?id=1jiiHWyCiTJSE6kwET9biYVn4FkbiI6XY
+Put these datasets in folder "processed_data".
+If you want crate your own dataset, you must remove default dataset.
 
 2.2 Start training of different networks with different structure by files: 
 "lstm_trainer.ipynb",
