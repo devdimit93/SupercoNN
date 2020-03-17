@@ -6,10 +6,11 @@ Tensorflow 1.15.0
 Matplotlib 3.1.1
 NumPy 1.18.1
 Superconductivty Data Data Set - open dataset, containing superconductors chemistry formulas. https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
---------------------------------------------
-Link to Google Drive the compressed archive https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
--------------------------------------------
+
+
+
 How can you run and train this network:
+
 1. Start prediction for your formulas
 
 1.1 Put txt file with your chemistry formulas into folder “processed_data”. Structure of formulas must be as in file "formulas_example.txt". Order of elements in formula is not important for this version of neural network
@@ -49,3 +50,5 @@ This repository already has default pretrained models for default dataset
 2.6 Test it for custom formulas. See p.1.
 
 If you need more information, you can see it inside .ipynb files in comments. 
+
+Link to Google Drive the compressed archive https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
