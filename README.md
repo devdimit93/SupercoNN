@@ -9,9 +9,9 @@ SupercoNN is project for the prediction of the temperature of superconductivity 
 
 ------------------------------------------------
 Metrics of trained neural network for defalut test dataset:
-Root mean square error, RMSE 8.202
-Standard deviation, R2 0.923
-Mean absolute error, MAE 4.068
+- Root mean square error, RMSE 8.202
+- Standard deviation, R2 0.923
+- Mean absolute error, MAE 4.068
 It mean that neural network can predict critical temperature of superconductivity of chemistry formula with accuracy 4.068 degree
 
 ------------------------------------------
@@ -39,10 +39,10 @@ Put these datasets in folder "processed_data".
 If you want crate your own dataset, you must remove default dataset.
 
 2.2 Start training of different networks with different structure by files: 
-"lstm_trainer.ipynb",
-"convolution_C1_trainer.ipynb" 
-"convolution_C2_trainer.ipynb" 
-"convolution_C3_trainer.ipynb" 
+- lstm_trainer.ipynb
+- convolution_C1_trainer.ipynb
+- convolution_C2_trainer.ipynb
+- convolution_C3_trainer.ipynb
 These files use loss "Mean Absolute Error"(MAE)
 Pretrained models will be in folder "pretrained_data". 
 This repository already has default pretrained models for default dataset 
