@@ -43,6 +43,7 @@ If you want crate your own dataset, you must remove default dataset.
 - convolution_C1_trainer.ipynb
 - convolution_C2_trainer.ipynb
 - convolution_C3_trainer.ipynb
+
 These files use loss "Mean Absolute Error"(MAE)
 Pretrained models will be in folder "pretrained_data". 
 This repository already has default pretrained models for default dataset 
