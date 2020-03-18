@@ -1,14 +1,20 @@
 # SupercoNN
-SupercoNN is projecе for the prediction of the temperature of superconductivity of materials based on a chemical formula by neural network.
+SupercoNN is project for the prediction of the temperature of superconductivity of materials based on a chemical formula by neural network.
 --------------------------------------------
-In this project were used:
-Tensorflow 1.15.0
-Matplotlib 3.1.1
-NumPy 1.18.1
-Superconductivty Data Data Set - open dataset, containing superconductors chemistry formulas. https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
+- In this project were used:
+- Tensorflow 1.15.0
+- Matplotlib 3.1.1
+- NumPy 1.18.1
+- Superconductivty Data Data Set - open dataset, containing superconductors chemistry formulas. https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
 
+------------------------------------------------
+Metrics of trained neural network for defalut test dataset:
+Root mean square error, RMSE 8.202
+Standard deviation, R2 0.923
+Mean absolute error, MAE 4.068
+It mean that neural network can predict critical temperature of superconductivity of chemistry formula with accuracy 4.068 degree
 
-
+------------------------------------------
 How can you run and train this network:
 
 1. Start prediction for your formulas
