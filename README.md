@@ -80,6 +80,7 @@ GUI_SupercoNN - graphical user interface script. For this script work, you need 
 
 If you need more information, you can see it inside .ipynb files in comments. 
 
+-----------------------------------------------------------------
 Link to Google Drive the compressed archive with source code  https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
 
 Link to Google Drive the archive with compiled console application  https://drive.google.com/open?id=1rLvQ68HN7wLm-HSBInnW14MobtNOBVD6
