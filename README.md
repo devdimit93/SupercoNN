@@ -56,6 +56,30 @@ This repository already has default pretrained models for default dataset
 
 2.6 Test it for custom formulas. See p.1.
 
+In folder Console_supercoNN and GUI_SupercoNN you can see python scripts for application. 
+
+These scripts need tensorflow, numpy and python. 
+
+Compiled applications are available via Google Drive links at the end of this description. 
+They can work without python and other packages. 
+They was tested on the Windwos 7 and 10.
+
+Console_supercoNN - console version of script. You can launch it by command like 
+python main.py sp:E:\data\source.txt tp:E:\results.txt mint:20 maxt:87 clean
+ - sp: - path to source file with chemistry formulas. Defalut value "results.txt", file in this folder.
+ - tp: - path to file, where will be calculated results.
+ If file does not exist, it will be created. Results has format: formula from source file, critical temperature. Defalut value "results.txt", file in this folder 
+ - mint: - minimum critical temperature.
+ Of predicted critical temperature of chemestry formula is smaller than value mint, formula will not be writed into results file from tp: parametr. Defalut walue 0 
+ - maxt: - maximum critical temperature. 
+ If predicted critical temperature of chemestry formula is more than value maxt, formula will not be writed into results file from tp: parametr. Defalut walue 999 
+ - clean - cleaning results file. 
+ If you use this parametr, file from parametr tp: will be cleaned before calculation. If you dont use this parametrs, results will be added in the end of file.
+
+GUI_SupercoNN - graphical user interface script. For this script work, you need to install pyqt5 and pqt5-tools.
+
 If you need more information, you can see it inside .ipynb files in comments. 
 
-Link to Google Drive the compressed archive https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
+Link to Google Drive the compressed archive with source code  https://drive.google.com/open?id=1kxzH1UuanuGdupbfQ64dqcrO0VnEP3eM.
+Link to Google Drive the archive with compiled console application  https://drive.google.com/open?id=1rLvQ68HN7wLm-HSBInnW14MobtNOBVD6
+Link to Google Drive the archive with compiled GUI application  https://drive.google.com/open?id=1tpb-hLHW_UFco0kCekYXcqg4YGlz0it4
